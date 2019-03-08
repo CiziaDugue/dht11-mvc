@@ -11,8 +11,14 @@ class MeasureController {
         $bargraphHeight = 161 + $latestMeasure->getTemperature() * 4;
         $bargraphTop = 315 - $latestMeasure->getTemperature() * 4;
 
+        require 'view/measureView.php';
+    }
+
+    public function displayAllMeasures() {
+
+        $measureManager = new MeasureManager();
         $allMeasures = $measureManager->getAllMeasures();
 
-        require 'view/measureView.php';
+        require 'view/histoView.php';
     }
 }

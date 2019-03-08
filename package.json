@@ -1,0 +1,23 @@
+{
+  "name": "dht11_mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiziaDugue/dht11-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CiziaDugue/dht11-mvc/issues"
+  },
+  "homepage": "https://github.com/CiziaDugue/dht11-mvc#readme",
+  "dependencies": {
+    "datatables.net": "^1.10.19",
+    "datatables.net-dt": "^1.10.19"
+  }
+}
