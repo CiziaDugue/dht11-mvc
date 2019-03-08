@@ -1,0 +1,12 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Dht11\\Dht11_mvc\\" : "src"
+		}
+	},
+	"name" : "dht11/dht11_mvc",
+	"require" : {
+		"php" : ">=7.2",
+		"phpunit/phpunit" : "~7.5"
+	}
+}
